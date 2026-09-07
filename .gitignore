@@ -1,0 +1,89 @@
+# ==============================================================================
+# Enterprise Git Exclusion Rules
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Python: Bytecode, Cache, and Distribution
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# ------------------------------------------------------------------------------
+# Python: Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# Testing, Coverage, and Linting Caches
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# ------------------------------------------------------------------------------
+# Terraform: State, Locks, Overrides, and Secrets
+# ------------------------------------------------------------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+*.hcl
+
+# ------------------------------------------------------------------------------
+# Secrets, Private Keys, and Environment Variables
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.cert
+*.cer
+
+# ------------------------------------------------------------------------------
+# IDEs, Text Editors, and Operating System Artifacts
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

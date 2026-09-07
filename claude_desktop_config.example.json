@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "azure-telemetry-bridge": {
+      "command": "python",
+      "args": [
+        "C:/Users/shmat/Documents/claude_desk/server.py"
+      ],
+      "env": {
+        "AZURE_STORAGE_ACCOUNT_NAME": "claudetel123456",
+        "AZURE_CONTAINER_NAME": "client-workloads",
+        "AZURE_BLOB_NAME": "client_telemetry.csv"
+      }
+    }
+  }
+}

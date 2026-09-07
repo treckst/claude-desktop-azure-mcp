@@ -1,0 +1,4 @@
+client_id,workload_name,industry,monthly_db_queries,storage_tb,current_monthly_spend_usd,active_vms,estimated_ai_monthly_queries
+RETAIL-001,Global Retail Omnichannel,Retail & E-commerce,15400000,15.4,125000.00,240,45000
+FINTECH-002,Apex Financial Services,Banking & Capital Markets,42000000,42.0,340000.00,580,120000
+LOGISTICS-003,Nexus Freight Logistics,Supply Chain & Transportation,9800000,9.8,89000.00,160,25000
